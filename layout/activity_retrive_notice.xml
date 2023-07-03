@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RetriveNotice">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyler_view1"
+        android:layout_width="match_parent"
+        android:layout_height="651dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:reverseLayout="true"
+        app:stackFromEnd="true" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="#EDE8E8"
+        android:text="College Notice"
+        android:textAlignment="center"
+        android:textColor="#191717"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!--  <EditText
+          android:id="@+id/editRetrive"
+          android:layout_width="301dp"
+          android:layout_height="388dp"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:text="Name"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />-->
+
+</RelativeLayout>
